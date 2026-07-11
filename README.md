@@ -10,14 +10,14 @@ cp .env.example .env.local  # Windows에서는 Copy-Item .env.example .env.local
 npm run dev
 ```
 
-`http://localhost:3000`에서 열 수 있습니다. `npm test`, `npm run build`로 검증합니다.
+`http://localhost:3002`에서 열 수 있습니다. `npm test`, `npm run build`로 검증합니다.
 
 ## AI 연결과 데모 모드
 
-`.env.local`에 `AI_API_KEY`와 이미지 입력을 지원하는 `AI_MODEL`을 넣으면 OpenAI 호환 Chat Completions API로 실제 분석을 요청합니다. API 키가 없거나 데모 항목을 고르면, 안전한 내장 샘플 응답을 사용합니다. AI가 지역 규칙을 만들지 않으며, `data/regions.json`의 시연용 규칙과 서버에서 결합합니다.
+`.env.local`에 `AI_API_KEY`와 이미지 입력을 지원하는 `AI_MODEL`을 넣으면 OpenAI 호환 Chat Completions API로 실제 분석을 요청합니다. 기본값은 비용·지연시간과 이미지 이해 성능의 균형을 고려한 `gpt-5.4-mini`입니다. API 키가 없거나 데모 항목을 고르면, 안전한 내장 샘플 응답을 사용합니다. AI가 지역 규칙을 만들지 않으며, `data/regions.json`과 `data/disposal-rules.json`의 규정 데이터를 서버에서 결합합니다.
 
 ## 구현 범위 및 한계
 
 - 구현: 이미지 MIME/크기 검증, 4개 데모 시나리오, 낮은 신뢰도 질문, 위험 폐건전지 경고, 지역 3곳, JSON 스키마 검증, JSONL 피드백 저장.
-- 시연 규칙은 공식 규정이 아닙니다. 실제 배포 전 지자체 공식 출처·수거처 데이터로 교체해야 합니다.
+- 품목별 공통 안내는 환경부의 공식 분리배출 지침을 출처·검증일과 함께 저장합니다. 서울 25개 구에는 서울시의 투명페트병·비닐 분리배출 시행 안내를 추가 적용합니다. 자치구별 요일·수거 장소처럼 확인되지 않은 세부사항은 단정하지 않고 관할 지자체 공식 공지를 확인하도록 합니다. 다른 시·구는 전국 공통 기준만 적용하며, 해당 지자체의 최신 조례 검증 전에는 세부 수거 방식을 표시하지 않습니다.
 - 외부 AI의 인식 정확도와 이미지 품질에 따라 결과가 달라질 수 있으며, 의료·폭발·유해 물질은 전문기관 확인이 우선입니다.

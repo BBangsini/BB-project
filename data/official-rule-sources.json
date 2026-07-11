@@ -1,0 +1,33 @@
+{
+  "national": {
+    "status": "VERIFIED_NATIONAL",
+    "scope": "전국 공통 분리배출 기준",
+    "sourceName": "환경부 재활용품별 분리배출 방법",
+    "sourceUrl": "https://eng.me.go.kr/home/file/readDownloadFile2.do?fileId=286620&fileSeq=1&openYn=Y",
+    "verifiedAt": "2026-07-11",
+    "limitations": "수거 요일, 수거 장소, 봉투·수거함의 운영 방식은 지자체 조례와 공동주택 관리 기준에 따라 달라질 수 있습니다."
+  },
+  "seoul": {
+    "status": "VERIFIED_METRO",
+    "scope": "서울특별시 자치구 공통 시행 안내",
+    "sourceName": "서울특별시 단독주택 지역 비닐 및 투명페트병 별도 분리배출 요일제",
+    "sourceUrl": "https://news.seoul.go.kr/env/archives/515834",
+    "verifiedAt": "2025-09-26",
+    "effectiveFrom": "2021-12-25",
+    "limitations": "자치구별 지정 요일은 서로 다릅니다. 앱은 확인되지 않은 요일이나 수거 장소를 단정하지 않습니다."
+  },
+  "regions": {
+    "seoul-gangnam": {"status":"VERIFIED_DISTRICT","scope":"강남구 단독주택·연립주택·빌라·소규모 상가 비닐·투명페트병 요일제","sourceName":"강남구 자원순환 종합포털 재활용 분리배출 안내","sourceUrl":"https://clean.gangnam.go.kr/use/guid/USEGUID01000000.do?contentId=con2411150005","verifiedAt":"2026-07-11","localSteps":["단독주택·빌라·소규모 상가는 매주 목요일에 투명페트병과 비닐만 배출합니다.","투명페트병·비닐은 투명·반투명 봉투 또는 백색 그물망에 담아 배출합니다.","유색 페트병·일반 플라스틱·캔·병류는 월·화·수·금·일요일에 녹색 그물망에 배출합니다."],"limitations":"공동주택은 단지 내 투명페트병 전용 수거함과 단지별 배출 시간 기준을 따릅니다."},
+    "seoul-songpa": {"status":"VERIFIED_DISTRICT","scope":"송파구 단독주택·소규모 상가 투명페트병·비닐 요일제","sourceName":"송파구 투명페트병·비닐 배출 요일 안내","sourceUrl":"https://www.songpa.go.kr/www/selectBbsNttView.do?bbsNo=96&key=2781&nttNo=19240923&pageIndex=1&pageUnit=10","verifiedAt":"2022-08-26","localSteps":["가락본동·거여1·2동·마천1동·문정1동·방이1·2동·석촌동·장지동·잠실본동은 목요일에 투명페트병·비닐을 배출합니다.","가락2동·마천2동·삼전동·송파1·2동·오금동·풍납1·2동은 금요일에 투명페트병·비닐을 배출합니다."],"limitations":"송파구의 동별 배출 시간·장소와 공동주택 기준은 최신 구청·관리사무소 안내를 확인해야 합니다."},
+    "busan-haeundae": {"status":"VERIFIED_METRO","scope":"부산광역시 16개 구·군 공통 투명페트병 별도배출 안내","sourceName":"부산시 투명페트병 고품질 재활용 집중 홍보","sourceUrl":"https://www.busan.go.kr/nbtnewsBU/1536640?curPage=585&srchBeginDt=&srchEndDt=&srchKey=cn&srchText=","verifiedAt":"2022-07-28","limitations":"해운대구의 실제 배출 요일·장소는 주소지 관할 구청 또는 공동주택 관리사무소 기준을 확인해야 합니다."},
+    "daegu-suseong": {"status":"VERIFIED_METRO","scope":"대구광역시 단독주택·상가지역 투명페트병 및 폐비닐 요일제","sourceName":"대구광역시 투명페트병 분리배출","sourceUrl":"https://www.daegu.go.kr/env/index.do?menu_id=00938311","verifiedAt":"2026-01-27","localSteps":["단독주택·상가지역에서 화·목·일 배출 지역은 투명페트병·폐비닐을 화요일에 배출합니다.","단독주택·상가지역에서 월·수·금 배출 지역은 투명페트병·폐비닐을 수요일에 배출합니다."],"limitations":"공동주택은 전용 수거함을 사용합니다. 주소지의 기존 재활용품 배출 요일 유형을 먼저 확인해야 합니다."},
+    "incheon-yeonsu": {"status":"VERIFIED_METRO","scope":"인천광역시 생수·음료 투명페트병 별도배출 안내","sourceName":"인천광역시 생수·음료 투명페트병 별도 분리배출 안내","sourceUrl":"https://www.incheon.go.kr/IC010101/view?cntPerPage=&curPage=158&nttNo=2043642&srchKey=srchSj&srchSiteRealmCode=&srchWord=","verifiedAt":"2024-04-19","limitations":"연수구의 배출 요일·장소는 주소지 또는 공동주택 관리 기준을 확인해야 합니다."},
+    "daejeon-yuseong": {"status":"VERIFIED_METRO","scope":"대전광역시 투명페트병 별도 분리배출","sourceName":"대전광역시 투명페트병은 일반플라스틱과 분리해 배출해요","sourceUrl":"https://www.daejeon.go.kr/drh/board/boardNormalView.do?boardId=normal_0096&menuSeq=1631&ntatcSeq=1391962785","verifiedAt":"2021-12-22","limitations":"유성구의 수거 요일·장소는 구청 청소행정과 또는 공동주택 관리 기준을 확인해야 합니다."},
+    "suwon-yeongtong": {"status":"VERIFIED_METRO","scope":"수원시 재활용품 분리배출 안내","sourceName":"수원시 올바른 재활용품 분리배출 홍보","sourceUrl":"https://news.suwon.go.kr/?mode=photo&p=71&page=58&reqIdx=202009241148246307&viewMode=view","verifiedAt":"2025-06-01","limitations":"영통구의 품목별 수거일·문전 배출 시간은 동별 안내를 확인해야 합니다."},
+    "seongnam-bundang": {"status":"VERIFIED_METRO","scope":"성남시 재활용품 분리배출","sourceName":"성남시 자원순환 통합 플랫폼 재활용품 분리배출 안내","sourceUrl":"https://recycle.seongnam.go.kr/platforminfo/recycle/method","verifiedAt":"2026-07-11","limitations":"분당구의 수거 요일·장소는 주거 형태와 동별 기준을 확인해야 합니다."},
+    "ulsan-nam": {"status":"VERIFIED_METRO","scope":"울산광역시 재활용 분리배출 기준 및 요령","sourceName":"울산광역시 재활용 분리배출 기준 및 요령","sourceUrl":"https://www.ulsan.go.kr/u/envi/contents.ulsan?mId=001005002002000000","verifiedAt":"2026-07-11","limitations":"남구의 수거 요일·장소는 주소지 수거 체계와 공동주택 관리 기준을 확인해야 합니다."},
+    "changwon-seongsan": {"status":"VERIFIED_METRO","scope":"창원시 성산구 재활용품·폐비닐 분리배출 안내","sourceName":"창원특례시 재활용품 및 폐비닐의 올바른 분리배출 방법","sourceUrl":"https://www.changwon.go.kr/cwportal/10310/10429/10430.web?amode=view&gcode=1009&idx=854924&sstring=%25","verifiedAt":"2025-03-26","limitations":"성산구의 수거 요일·시간은 주소지 수거 체계와 공동주택 관리 기준을 확인해야 합니다."},
+    "cheongju-heungdeok": {"status":"VERIFIED_METRO","scope":"청주시 재활용자원 회수 및 분리배출 안내","sourceName":"청주시 재활용자원 무인회수기 안내","sourceUrl":"https://www.cheongju.go.kr/www/contents.do?key=23983","verifiedAt":"2026-05-01","limitations":"흥덕구의 문전·거점 배출 시간과 장소는 동별 클린하우스 및 수거 안내를 확인해야 합니다."},
+    "jeonju-wansan": {"status":"VERIFIED_METRO","scope":"전주시 완산구 투명페트병 회수 및 분리배출 안내","sourceName":"전주시 투명페트병 무인회수기 운영 안내","sourceUrl":"https://www.jeonju.go.kr/planweb/board/view.9is?boardUid=ff8080818b5bc5cf018ba8ca7216641f&contentUid=ff8080818990c349018b041a87fe3960&dataUid=9be517a884c3bd8801872c97383b51af&page=711","verifiedAt":"2023-03-29","limitations":"완산구의 일반 수거 요일·장소는 거주 동의 청소·재활용품 분리수거 안내를 확인해야 합니다."}
+  }
+}

@@ -1,0 +1,5 @@
+[
+  {"regionId":"suwon-yeongtong","name":"영통구청 무인회수기","address":"수원시 영통구 효원로 407","items":["투명 페트병"],"sourceUrl":"https://www.suwon.go.kr/sw-www/deptHome/dep_env/env_03/env_04_07.jsp","verifiedAt":"2026-07-01"},
+  {"regionId":"changwon-seongsan","name":"창원스포츠파크 무인회수기","address":"창원시 성산구 원이대로 450","items":["투명 페트병","캔"],"sourceUrl":"https://www.changwon.go.kr/cwportal/depart/11065/11084/15071.web","verifiedAt":"2026-07-01"},
+  {"regionId":"cheongju-heungdeok","name":"사직1동 재활용자원 무인회수기","address":"흥덕로61 수영장 입구(국민생활관 좌측 출입구)","items":["투명 페트병"],"sourceUrl":"https://www.cheongju.go.kr/www/contents.do?key=23983","verifiedAt":"2026-05-01"}
+]
