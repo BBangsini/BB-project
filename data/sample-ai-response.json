@@ -1,0 +1,9 @@
+{
+  "detectedItems": [{
+    "name": "투명 페트병", "category": "플라스틱", "material": ["PET"], "confidence": 0.92,
+    "recyclableStatus": "CONDITIONAL", "contamination": {"status": "LOW", "description": "소량의 내용물이 남아 있는 것으로 보입니다."},
+    "components": [{"name": "본체", "material": "PET", "action": "내용물을 비우고 세척합니다."}],
+    "specialWaste": false, "evidence": ["투명한 병 형태", "PET 재활용 표시"], "uncertainties": ["뚜껑 재질은 확인이 필요합니다."]
+  }],
+  "needsMoreInformation": false, "followUpQuestions": [], "warnings": [], "overallConfidence": 0.92
+}

@@ -1,0 +1,5 @@
+[
+  {"regionId":"sample-seoul","regionName":"서울특별시 시연 지역","isDemo":true,"lastUpdated":"2026-07-11","sourceName":"시연용 데이터","sourceUrl":null,"rules":{"transparent_pet":{"collectionType":"투명 페트병 별도 분리배출","steps":["내용물을 비웁니다.","물로 헹굽니다.","라벨을 제거합니다.","가능하면 압착합니다.","투명 페트병 전용 수거함에 배출합니다."]},"battery":{"collectionType":"전용 수거함","steps":["일반쓰레기와 섞지 않습니다.","가까운 폐건전지 전용 수거함에 넣습니다."]}}},
+  {"regionId":"sample-busan","regionName":"부산광역시 시연 지역","isDemo":true,"lastUpdated":"2026-07-11","sourceName":"시연용 데이터","sourceUrl":null,"rules":{"transparent_pet":{"collectionType":"재활용품 분리배출","steps":["내용물을 비우고 헹굽니다.","라벨과 뚜껑을 분리합니다.","시연용 재활용품 수거함에 배출합니다."]},"battery":{"collectionType":"전용 수거함","steps":["폐건전지 수거함 또는 지정 수거처를 이용합니다."]}}},
+  {"regionId":"sample-jeju","regionName":"제주특별자치도 시연 지역","isDemo":true,"lastUpdated":"2026-07-11","sourceName":"시연용 데이터","sourceUrl":null,"rules":{"transparent_pet":{"collectionType":"재활용품 분리배출","steps":["내용물을 비우고 세척합니다.","라벨을 제거합니다.","시연용 재활용 분리수거함에 배출합니다."]},"battery":{"collectionType":"전용 수거함","steps":["폐건전지 전용 수거함에 배출합니다."]}}}
+]
